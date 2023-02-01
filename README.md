@@ -1,5 +1,14 @@
 # chat-gpt-integration
 
+A Node.js app which connects slack and chat gpt 
+
+## Documentation
+
+### Install Modules
+
+`npm install`
+
+### Add ENV variables
 
 ENV VARIABLES
 ```
