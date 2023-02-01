@@ -22,11 +22,11 @@ app.event("app_mention", async ({ body, context, say }) => {
     model: "text-davinci-003",
     prompt: text,
     temperature: 0.7,
-    max_tokens: 500
+    max_tokens: 100
   });
 
   app.client.chat.postMessage({
-    channel: 'C04L91VLBP0',
+    channel: process.env.CHANNEL_ID,
     blocks: [{
       type: "section",
       text: {
